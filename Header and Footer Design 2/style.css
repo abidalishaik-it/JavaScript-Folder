@@ -1,0 +1,96 @@
+header{
+    background-color:rgba(40, 233, 168, 0.815);
+    padding:10px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.brand-title{
+    font-family:cambria;
+    font-size:30px;
+    font-weight:bold;
+    color:white;
+    padding:10px;
+}
+.header-menu span{
+    display:inline-block;
+    font-family:arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:10px;
+    color:white;
+    margin-left:10px;
+}
+button{
+    display:inline-block;
+    background-color:white;
+    border:none;
+    padding:10px;
+    margin-left:50px;
+    border-radius:5px;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+}
+section{
+    height:500px;
+}
+footer{
+    background-color:rgb(0, 0, 255);
+    padding:30px;
+    margin-top:50px;
+    font-family:arial;
+
+}
+.footer-title{
+    background-color:aquamarine;
+    font-family:cambria;
+    font-size:25px;
+    font-weight:bold;
+    padding:20px;
+    margin-top:50px;
+    border-radius:10px;
+    margin-left:50px;
+}
+.footer-button{
+
+    font-size:20px;
+    background-color:white;
+    border-radius:5px;
+    padding:10px;
+    margin-left:200px;
+}
+.service-container{
+    display:grid;
+    grid-template-columns: 3fr 3fr 6fr;
+    margin-top:50px;
+}
+.service-title{
+    font-family:cambria;
+    font-size:20px;
+    font-weight:bold;
+    padding:20px;
+    display:block;
+    color:white;
+
+
+}
+.service-title~span{
+    display:block;
+    margin-bottom:10px;
+    color:white;
+    margin-left:20px;
+
+}
+.bottom{
+    text-align:center;
+    font-family:arial;
+    font-size:15px;
+    color:white;
+}
+.icons span{display:inline-block;
+    margin-left:30px;
+    font-size:20px;
+    margin-bottom:10px;
+
+}
