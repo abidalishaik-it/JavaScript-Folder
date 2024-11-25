@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: rgba(207, 14, 224, 0.705);
+            border-radius:20px;
+            padding:20px;
+        }
+        input[type=text],select,textarea{
+            width:90%;
+            padding:20px;
+            border:2px solid red;
+            border-radius:20px;
+            margin-top:20px;
+            margin-bottom:20px;
+            resize:vertical;
+        }
+        input[type=submit]{
+            background-color: #04AA6D;
+            border:none;
+            border-radius:4px;
+            color:white;
+            padding:12px 20px;
+            cursor:pointer;
+            margin:30px;
+        }
+        input[type=submit]:hover{
+            background-color:rgb(255, 251, 0);
+            color:black;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <form>
+            <label>First Name:</label>
+            <input type="text" placeholder="First Name" name="firstname"><br>
+            <label>Last Name:</label>
+            <input type="text" placeholder="Last Name" name="lastname"><br>
+            <label>Mobile:</label><br>
+            <input type="text" placeholder="Mobile Number" name="mobilenumber"><br>
+            <label>Country:</label><br>
+            <select>
+                <option>India</option>
+                <option>Australia</option>
+                <option>Srilanka</option>
+                <option>UAE</option>
+            </select><br>
+            
+            <label>Subject:</label><br>
+            <textarea name="subject" placeholder="Write about your subject..." style="height:200px"></textarea><br>
+
+            <input type="submit" value="Submit">
+             
+        </form>
+    </div>
+    
+</body>
+</html>
